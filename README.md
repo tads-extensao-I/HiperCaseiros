@@ -9,9 +9,9 @@ Seram utilizados métodos simples para o cumprimento dos objetivos propostos, vi
 ## Colaboradores
 ### IFMS - Campus Naviraí
 #### Equipe de desenvolvimento
-DANIEL GRAVE FERNANDES
-JOÃO PAULO LOPES PINHO
-MARIANA DE LIMA GARCIA LOPES
-ROBERTO KENZO SILVA NAKAHARA
+* DANIEL GRAVE FERNANDES
+* JOÃO PAULO LOPES PINHO
+* MARIANA DE LIMA GARCIA LOPES
+* ROBERTO KENZO SILVA NAKAHARA
 
 ### UFMS - Campus Naviraí
