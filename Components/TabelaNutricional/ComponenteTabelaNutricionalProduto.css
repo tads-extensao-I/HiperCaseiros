@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tabela {
+    padding: 6.4rem .1rem;
+    gap: 9.8rem;
+}
+
+.tabela__titulo {
+    font-family: 'Lily Script One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 8.8rem;
+    text-align: center;
+    color: #23673B;
+}
+
+.tabela__container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+
+.tabela__nutriente {}
+
+.tabela__grupo-colunas-titulo {
+    background-color: #D1BEA2;
+    padding: 3.2rem 0;
+    justify-content: center;
+    align-items: center;
+    width: 41.6rem;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 3.0rem;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.tabela__grupo-colunas {
+    width: 100%;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 3.0rem;
+    border: 1px solid #000000;
+    padding: 3.2rem 0 3.2rem 0;
+    align-items: center;
+}
+
+.tabela__grupo-item{}
+
+.tabela__valor-diario .tabela__grupo-colunas-titulo {
+    width: 9.2rem;
+}
