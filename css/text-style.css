@@ -1,798 +1,157 @@
 .HeadingsH1 {
-    font-family: LilyScriptOne;
-    font-size: 88px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH2 {
-    font-family: LilyScriptOne;
-    font-size: 84px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH3 {
-    font-family: LilyScriptOne;
-    font-size: 80px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH4 {
-    font-family: LilyScriptOne;
-    font-size: 76px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH5 {
-    font-family: LilyScriptOne;
-    font-size: 72px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH6 {
-    font-family: LilyScriptOne;
-    font-size: 68px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH7 {
-    font-family: LilyScriptOne;
-    font-size: 64px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH8 {
-    font-family: LilyScriptOne;
-    font-size: 60px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH9 {
-    font-family: LilyScriptOne;
-    font-size: 56px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH10 {
-    font-family: LilyScriptOne;
-    font-size: 52px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH11 {
-    font-family: LilyScriptOne;
-    font-size: 48px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-  
-  .HeadingsH12 {
-    font-family: LilyScriptOne;
-    font-size: 44px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH13 {
-    font-family: LilyScriptOne;
-    font-size: 40px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-  
-  .HeadingsH14 {
-    font-family: LilyScriptOne;
-    font-size: 36px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-  }
-
-  .HeadingsH15 {
-    font-family: LilyScriptOne;
-    font-size: 32px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH16 {
-    font-family: LilyScriptOne;
-    font-size: 28px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH17 {
-    font-family: LilyScriptOne;
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .HeadingsH18 {
-    font-family: LilyScriptOne;
-    font-size: 20px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaLg1Bold {
-    font-family: Comfortaa;
-    font-size: 48px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsLg1Bold {
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaLg1Regular {
-    font-family: Comfortaa;
-    font-size: 48px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsLg1Regular {
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaLg1Light {
-    font-family: Comfortaa;
-    font-size: 48px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsLg1Light {
-    font-family: Poppins;
-    font-size: 48px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaLg2Bold {
-    font-family: Comfortaa;
-    font-size: 44px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsLg2Bold {
-    font-family: Poppins;
-    font-size: 44px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaLg2Regular {
-    font-family: Comfortaa;
-    font-size: 44px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsLg2Regular {
-    font-family: Poppins;
-    font-size: 44px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaLg2Light {
-    font-family: Comfortaa;
-    font-size: 44px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsLg2Light {
-    font-family: Poppins;
-    font-size: 44px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaLg3Bold {
-    font-family: Comfortaa;
-    font-size: 40px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsLg3Bold {
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaLg3Regular {
-    font-family: Comfortaa;
-    font-size: 40px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsLg3Regular {
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaLg3Light {
-    font-family: Comfortaa;
-    font-size: 40px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsLg3Light {
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaBase1Bold {
-    font-family: Comfortaa;
-    font-size: 36px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsBase1Bold {
-    font-family: Poppins;
-    font-size: 36px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaBase1Regular {
-    font-family: Comfortaa;
-    font-size: 36px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsBase1Regular {
-    font-family: Poppins;
-    font-size: 36px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaBase1Light {
-    font-family: Comfortaa;
-    font-size: 36px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-  
-  .Text-PoppinsBase1Light {
-    font-family: Poppins;
-    font-size: 36px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaBase2Bold {
-    font-family: Comfortaa;
-    font-size: 32px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-  
-  .Text-PoppinsBase2Bold {
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaBase2Regular {
-    font-family: Comfortaa;
-    font-size: 32px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsBase2Regular {
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaBase2Light {
-    font-family: Comfortaa;
-    font-size: 32px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsBase2Light {
-    font-family: Poppins;
-    font-size: 32px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaBase3Bold {
-    font-family: Comfortaa;
-    font-size: 28px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsBase3Bold {
-    font-family: Poppins;
-    font-size: 28px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaBase3Regular {
-    font-family: Comfortaa;
-    font-size: 28px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsBase3Regular {
-    font-family: Poppins;
-    font-size: 28px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaBase3Light {
-    font-family: Comfortaa;
-    font-size: 28px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsBase3Light {
-    font-family: Poppins;
-    font-size: 28px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-  
-  .Text-ComfortaaSm1Bold {
-    font-family: Comfortaa;
-    font-size: 24px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm1Bold {
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm1Medium {
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaSm1Regular {
-    font-family: Comfortaa;
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm1Regular {
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaSm1Light {
-    font-family: Comfortaa;
-    font-size: 24px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm1Light {
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaSm2Bold {
-    font-family: Comfortaa;
-    font-size: 20px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm2Bold {
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm2SemiBold {
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaSm2Regular {
-    font-family: Comfortaa;
-    font-size: 20px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm2Regular {
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaSm2Light {
-    font-family: Comfortaa;
-    font-size: 20px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm2Light {
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaSm3Bold {
-    font-family: Comfortaa;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm3Bold {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaSm3Regular {
-    font-family: Comfortaa;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm3Regular {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaSm3Light {
-    font-family: Comfortaa;
-    font-size: 16px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsSm3Light {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaXs1Bold {
-    font-family: Comfortaa;
-    font-size: 12px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsXs1Bold {
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaXs1Regular {
-    font-family: Comfortaa;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsXs1Regular {
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-ComfortaaXs1Light {
-    font-family: Comfortaa;
-    font-size: 12px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .Text-PoppinsXs1Light {
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
+  font-family: LilyScriptOne;
+  font-size: 8.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.HeadingsH2 {
+  font-family: LilyScriptOne;
+  font-size: 6.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.HeadingsH3 {
+  font-family: LilyScriptOne;
+  font-size: 6.4rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.PoppinsRegular4 {
+  font-family: Poppins;
+  font-size: 4rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.ComfortaaBold3 {
+  font-family: Comfortaa;
+  font-size: 3.2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.ComfortaaRegular {
+  font-family: Comfortaa;
+  font-size: 2.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.ComfortaaBold2 {
+  font-family: Comfortaa;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.PoppinsBold3 {
+  font-family: Poppins;
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.PoppinsMedium {
+  font-family: Poppins;
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.PoppinsRegular3 {
+  font-family: Poppins;
+  font-size: 2.4rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.ComfortaaBold1 {
+  font-family: Comfortaa;
+  font-size: 2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.PoppinsSemiBold {
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.PoppinsRegular2 {
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.PoppinsBold2 {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.PoppinsRegular1 {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.PoppinsBold1 {
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
