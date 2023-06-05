@@ -17,69 +17,70 @@ html,body{
 }
 
 header{
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 2928px;
-    background: linear-gradient(270deg, #078734 39.92%, var(--primary-main) 56.85%);
-    box-shadow: 0px 2.00694px 2.00694px rgba(0, 0, 0, 0.15);
+    height: 117.166rem;
+    
+    background: linear-gradient(270deg, var(--primary-a-700) 39.92%, var(--primary-700) 56.85%);
     background-color: var();
 }
 
-.links{
+.header__links{
     display: flex;
     justify-content: center;
-    padding-top: 4%;
-    gap: var(----spacing-27);
+    height: 15rem;
+    gap: var(--spacing-27);
     text-decoration: none;
 }
 
-/*.logotipo{
-    display: flex;  
-}*/
 
-.links-esquerda{
+.header__links-esquerda{
+    padding-top: 10rem;
     display: flex;
     justify-content: center;
     gap: var(--spacing-26);
 }
 
-.links-direita{
+.header__links-direita{
+    padding-top: 10rem;
     display: flex;
     justify-content: center;
     gap:var(--spacing-26);
 }
 
-.links-esquerda a{
-    color: var(--neutral-light);
+.header__links-esquerda a{
+    color:  var(--primary-50);
     text-decoration: none;
 }
 
-.links-direita a{
-    color: var(--neutral-light);
+.header__links-direita a{
+    color: var(--primary-50);
     text-decoration: none;
 }
-
-.banner{
-    display: flex;
-    width: 100%;
-    height: 30%;
+.header__banner{
+    
 }
-
-.banner img{
+.header__banner img{
     max-width: 100%;
     max-height: 100%;
     width: 100%;
+    height: 94.8rem;
     position: absolute;
     border-top-left-radius: 350px;
     border-top-right-radius: 350px;
+    object-fit: cover;
 }
-
-.transiçao {
+.header__transiçao {
+    display: flex;
     width: 100%;
-    height: 180px;
+    height: 30%;
     background: linear-gradient(to bottom, transparent 25%, white 100%);
+    position: absolute;
+    bottom: 0rem;
 }
-
-footer{
-    width: 100%;
-    background-image: url ('../img/IMG_RODAPE.png');
+.header__logotipo{
+   position: relative;
+   z-index: 33;
 }
+    
