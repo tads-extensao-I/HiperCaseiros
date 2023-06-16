@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa da Página Principal</title>
+    <link rel="stylesheet" href="MapaHomePage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+<section class="mapahomepage">
+    <div class="mapahomepage__div">
+            <div id="map">
+                <script>
+                    mapboxgl.accessToken = 'pk.eyJ1IjoibWFyaWFuYWxnbG9wZXMiLCJhIjoiY2xpeGhocG1sMDZxYjNwbjJpcnA1aDI2ZyJ9.z9Kt9840bk6jNDKNGNTDjg'
+                    const map = new mapboxgl.Map({
+                        container: 'map',
+                        style: 'mapbox://styles/mapbox/streets-v12',
+                        center: [-54.194995, -23.055629],
+                        zoom: 16
+                    })
+                    const marker1 = new mapboxgl.Marker({
+                        color: 'blue',
+                        rotation: 2
+                    })
+                    .setLngLat([-54.194995, -23.055629])
+                    .addTo(map);
+
+                    map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+                </script>
+            </div>
+
+            <div class="mapahomepage__sobre">
+                <div class="mapahomepage__sobre-texto">
+                <h1>Nossa Matriz</h1>
+                <p>
+                Nossa matriz está localizada na rua Rafael Guedes Chociai, nº 427, Centro, na cidade de Naviraí/MS.               
+                </p>
+                </div>
+            </div>
+    </div>
+</section>
+</body>
+
+</html>
