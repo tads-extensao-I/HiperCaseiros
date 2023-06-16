@@ -1,13 +1,52 @@
+@import url('./colors.css');
+@import url('./spacing.css');
+@import url('./text-style.css');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+:root{
+  font-size: 62.5%; /*Padrão de fonte '10'*/
+}
+.product-h1{    
+  font-family: 'Lily Script One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 8.8rem;
+  text-align: center;
+  color: #23673B;
+}
+.section-product{
+  width: 100%;
+  height:70rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .product-container {
     display: flex;
+    flex-direction: column;
     max-width: 80rem;
     margin: 0 auto;
+    gap:1rem;
+  }
+  .product-cima{
+    display: flex;
+    flex-direction: row;
+    max-width: 80rem;
+    margin: 0 auto;
+    gap:0.1rem;
+  }
+  .product-baixo{
+    display: flex;
+    flex-direction: row;
+    max-width: 80rem;
+    margin: 0 auto;
+    gap:0.1rem;
   }
   
   .product {
@@ -15,6 +54,7 @@
     flex-grow: 1;
     margin-right: 20px;
   }
+
   
   .product-image {
     position: relative;
@@ -32,26 +72,80 @@
   .product:hover .product-image img {
     transform: scale(1.2);
   }
-  
+ 
   .product-info {
     display: none;
     position: absolute;
     top: 0;
     left: 100%;
-    width: 250px;
-    padding: 10px;
+    width: 30rem;
+    height: 20rem;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    color: #642B0A;
     z-index: 1;
     transition: left 0.3s;
 
-
-    width: 292.53px;
-height: 200px;
+    
+    
 
 /* Secondary/Light */
 
 background: #D1BEA2;
+  }
+  .product-flex{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .product-info button{
+    cursor: pointer;
+    stroke: none;
+    bottom: 1rem;
+    background-color: #642B0A;
+    border: #642B0A;
+    color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-family: Comfortaa;
+    font-size: 2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+
+  }
+  .product-info button:hover{
+    cursor: pointer;
+    stroke: none;
+    bottom: 1rem;
+    background-color: #23673B;
+    border: #23673B;
+    color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-family: Comfortaa;
+    font-size: 2rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .product h3{
+    top: 1rem;
+    font-family: Comfortaa;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
   }
   
   .product:hover .product-info {
