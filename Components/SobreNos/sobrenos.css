@@ -1,0 +1,79 @@
+@import url('./colors.css');
+@import url('./spacing.css');
+@import url('./text-style.css');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+:root{
+    font-size: 62.5%; /*Padrão de fonte '10'*/
+}
+.sobrenos{
+    width: 100%;
+    height:70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sobrenos h1{
+    max-width: 70rem;
+    font-family: 'Lily Script One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 8.8rem;
+    text-align: center;
+    color: #23673B;
+}
+.sobrenos__div{
+    background-color: #D1BEA2;
+    height: 48rem;
+    width: 120rem;
+    display: flex;
+    right: 0;
+    flex-direction: row;
+}
+.sobrenos__esquerda{
+    width: 56rem;
+    max-width: 56rem;
+    height: 100%;
+    background-image: src('IMG_9026.jpg');
+    position: relative;
+
+}
+.sobrenos__foto{
+    width: 56rem;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    left: 0rem;
+}
+.sobrenos__transiçao{
+    position:absolute;
+    right: 0;
+    width: 7rem;
+    height: 100%;
+    background: linear-gradient(to right, transparent 25%, #D1BEA2 100%);
+}
+.sobrenos__texto p{
+    width: 64rem;
+    font-family: Poppins;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color:var(--secondary-700);
+  padding: 1rem;
+}

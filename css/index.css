@@ -22,7 +22,7 @@ header{
     width: 100%;
     height: 113.1rem;
     position: relative;   
-    background: linear-gradient(270deg, var(--primary-a-700) 39.92%, var(--primary-700) 56.85%);
+    background: linear-gradient(270deg, var(--primary-700) 39.92%, var(--primary-a-700) 56.85%);
     background-color: var();
 }
 
