@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
     <title>HiperCaseiro</title>
 </head>
 
@@ -38,15 +40,203 @@
                     <div class="header__transiçao"></div>
 
             </div>
-                
-            
     </header>
 
-    <div class="content">
-        <h1>
-            Página Principal
-        </h1>
-    </div>
-</body>
 
+
+    
+    <section class="section-product">
+        <h1 class="product-h1">Produtos</h1>
+            <div class="product-container">
+              <div class="product-cima">
+    
+                <div class="product">
+                <a href="./ProdutoPForma.html">
+                  <div class="product-image">
+                    <img src="../../img/IMG_9037.jpg" alt="Produto 1">
+                  </div>
+                  
+                  <div class="product-info">
+                    <h3>Pão de forma</h3>
+                    
+                    <button>Saiba mais</button>
+                  </div>
+                  
+                </a>
+                </div>
+    
+                <div class="product">
+                  <a href="./ProdutoCVermelho.html">
+                    <div class="product-image">
+                       <img src="../../img/IMG_9028.jpg" alt="Produto 2">
+                    </div>
+                    <div class="product-info">
+                      
+                      <h3>Pão Caseiro Médio</h3>
+                      
+                      <button>Saiba mais</button>
+                    </div>
+                  </a>
+                </div>
+    
+                  <div class="product">
+                  <a href="./ProdutoCAzul.html">
+                    <div class="product-image">
+                       <img src="../../img/IMG_9030.jpg" alt="Produto 2">
+                    </div>
+                    <div class="product-info">
+                      <h3>Pão de Leite</h3>
+                      
+                      <button>Saiba mais</button>
+                    </div>
+                  </a>
+                  </div>
+    
+                  <div class="product">
+                    <a href="./ProdutoPIntegral.html">
+                    <div class="product-image">
+                       <img src="../../img/IMG_9039.jpg" alt="Produto 2">
+                    </div>
+                    <div class="product-info">
+                      <h3>Pão Integral</h3>
+                      
+                      <button>Saiba mais</button>
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="product-baixo">
+    
+                  <div class="product">
+                  <a href="./ProdutoPHDog.html">
+                    <div class="product-image">
+                       <img src="../../img/IMG_9041.jpg" alt="Produto 2">
+                    </div>
+                    <div class="product-info">
+                      <h3>Pão de Hot-Dog</h3>
+                      
+                      <button>Saiba mais</button>
+                    </div>
+                  </a>
+                  </div>
+    
+                  <div class="product">
+                  <a href="./ProdutoCVerde.html"> 
+                    <div class="product-image">
+                       <img src="../../img/IMG_9026.jpg" alt="Produto 2">
+                    </div>
+                    <div class="product-info">
+                      <h3>Pão Caseiro Grande</h3>
+                      
+                      <button>Saiba mais</button>
+                    </div>
+                  </a>
+                  </div>
+    
+                  <div class="product">
+                  <a href="./ProdutoPHamburguer.html">
+                    <div class="product-image">
+                       <img src="../../img/IMG_9048.jpg" alt="Produto 2">
+                    </div>
+                    <div class="product-info">
+                      <h3>Pão de Hamburguer</h3>
+                      
+                      <button>Saiba mais</button>
+                    </div>
+                  </a>
+                  </div>
+                </div>
+            </div>
+    </section>
+   
+
+
+
+
+    <section class="sobrenos">
+        <h1 class="tabela__titulo">Sobre a Híper</h1>
+        <div class="sobrenos__div">
+
+            <div class="sobrenos__esquerda">
+                <img class="sobrenos__foto" src="img/IMG_9037.jpg">
+                <div class="sobrenos__transiçao"></div>
+            </div>
+            <div class="sobrenos__texto"><p>A história da empresa Hiper Pães começa no ano de 2003 o sócio e proprietário Sr Noel Felipe,  juntamente com sua esposa e sócia proprietária a Sra. Maria Felipe, após uma viagem ao interior do Mato Grosso resolveram por em prática uma idéia que lhes foram dada na ocasião, fazer pães. 
+                Em Naviraí, iniciaram sua produção com 40 pães que foram distribuídos nos mercados da cidade vendendo toda a produção. 
+                Hoje a empresa Hiper Pães tem uma média de produção de 2000 a 2500 pães por dia conta com mais de 16 funcionários, possuem prédio próprio com maquinários modernos, a entrega final dos produtos são todas feitas  com veículos próprios da empresa e possuem uma distribuidora em Dourados, atendendo grande parte do estado do Mato Grosso do Sul e pensando em expandir ainda mais.
+            </p></div>
+        </div>
+        <h1 class="tabela__titulo">Não basta ser caseiro, tem que ser Hiper!</h1>
+    </section>
+    
+
+
+    <section class="mapahomepage">
+        <div class="mapahomepage__div">
+                <div id="map">
+                    <script>
+                        mapboxgl.accessToken = 'pk.eyJ1IjoibWFyaWFuYWxnbG9wZXMiLCJhIjoiY2xpeGhocG1sMDZxYjNwbjJpcnA1aDI2ZyJ9.z9Kt9840bk6jNDKNGNTDjg'
+                        const map = new mapboxgl.Map({
+                            container: 'map',
+                            style: 'mapbox://styles/mapbox/streets-v12',
+                            center: [-54.194995, -23.055629],
+                            zoom: 16
+                        })
+                        const marker1 = new mapboxgl.Marker({
+                            color: 'blue',
+                            rotation: 2
+                        })
+                        .setLngLat([-54.194995, -23.055629])
+                        .addTo(map);
+    
+                        map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+                    </script>
+                </div>
+    
+                <div class="mapahomepage__sobre">
+                    <div class="mapahomepage__sobre-texto">
+                    <h1>Nossa Matriz</h1>
+                    <p>
+                    Nossa matriz está localizada na rua Rafael Guedes Chociai, nº 427, Centro, na cidade de Naviraí/MS.               
+                    </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <img src="img/IMG_RODAPE.png">
+             <div class="rodape__informaçoes">
+                 <div class="rodape__info"class="Text-PoppinsLg1Regular">
+                     <p class="rodape__titulo">Endereço</p>
+                     <p class="rodape__texto">Avenida Narciso Ferreira, nº498, Naviraí-MS</p>
+                     <div class="rodape__barra"></div>
+                 </div>
+ 
+                 <div class="rodape__info">
+                     <p class="rodape__titulo"class="Text-PoppinsLg1Regular">Funcionamento</p>
+                     <p class="rodape__texto">08:30  às 18:00 seg à sab</p>
+                     <p class="rodape__texto"> </p>
+                     <div class="rodape__barra"></div>
+                 </div>
+                 <div class="rodape__info">
+                     <p class="rodape__titulo"class="Text-PoppinsLg1Regular">Contatos</p>
+                     <P class="rodape__texto">(67)91834-5876 hiperpaes@gmail.com</P>
+                     <div class="rodape__barra"></div>
+                 </div>
+                 
+                 <div class="rodape__info">
+                     <p class="rodape__titulo"class="Text-PoppinsLg1Regular">Redes Sociais</p>
+                     <img class="rodape__img"src="img/Zap.png">
+                     <div class="rodape__barra"></div>
+                 </div>
+             </div>
+             <div class="linha">
+                 Copyright © 2023 Produtos Hiper Caseiro | Desenvolvido em colaboração IFMS/UFMS - 
+                 <a class="rodape__creditos" href="./Creditos.html"> Creditos</a>
+             </div>
+</body>
 </html>
