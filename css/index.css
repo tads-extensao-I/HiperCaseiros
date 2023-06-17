@@ -1,6 +1,8 @@
 @import url('./colors.css');
 @import url('./spacing.css');
 @import url('./text-style.css');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
 
 *{
     padding: 0;
@@ -83,7 +85,390 @@ header{
    z-index: 33;
 }
     
-.content{
-     background-color: red;
-     position: re;
-}
+
+
+
+
+
+.product-h1{    
+    font-family: 'Lily Script One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 8.8rem;
+    text-align: center;
+    color: #23673B;
+  }
+  .section-product{
+    width: 100%;
+    height:90rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .product-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 120rem;
+      width: 120rem;
+      margin: 0 auto;
+      gap:1rem;
+    }
+    .product-cima{
+      display: flex;
+      flex-direction: row;
+      
+      margin: 0 auto;
+      gap:0.1rem;
+    }
+    .product-baixo{
+      display: flex;
+      flex-direction: row;
+      
+      margin: 0 auto;
+      gap:0.1rem;
+    }
+    
+    .product {
+      position: relative;
+      flex-grow: 1;
+      margin-right: 2rem;
+    }
+  
+    .product-image {
+      position: relative;
+      width: 100%;
+      height: 30rem;
+      overflow: hidden;
+    }
+    
+    .product-image img {
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s;
+    }
+    
+    .product:hover .product-image img {
+      transform: scale(1.2);
+    }
+   
+    .product-info {
+     visibility:hidden;
+     display: flex;
+     flex-direction: column;
+     gap:10rem;
+     align-items: space-between;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      width: 30rem;
+      height: 30rem;
+      padding-top: 1rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #642B0A;
+      z-index: 1;
+      transition: left 0.3s;
+  /* Secondary/Light */
+  
+  background: #D1BEA2;
+    }
+    .product:hover .product-info {
+        visibility:visible;
+         display: flex;
+         flex-direction: column;
+         gap:10rem;
+         align-items: space-between;
+         position: absolute;
+         top: 0;
+         left: 100%;
+         width: 30rem;
+         height: 30rem;
+         padding-top: 1rem;
+         padding-left: 5rem;
+         padding-right: 5rem;
+         background-color: rgba(0, 0, 0, 0.8);
+         color: #642B0A;
+         z-index: 1;
+         transition: left 0.3s;
+     /* Secondary/Light */
+     
+     background: #D1BEA2;
+       }
+    .product-flex{
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .product-info button{
+      cursor: pointer;
+      stroke: none;
+      bottom: 1rem;
+      background-color: #642B0A;
+      border: #642B0A;
+      color: white;
+      padding: 2rem;
+      border-radius: 2rem;
+      font-family: Comfortaa;
+      font-size: 2rem;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+  
+    }
+    .product-info button:hover{
+      cursor: pointer;
+      stroke: none;
+      bottom: 1rem;
+      background-color: #23673B;
+      border: #23673B;
+      color: white;
+      padding: 2rem;
+      border-radius: 2rem;
+      font-family: Comfortaa;
+      font-size: 2rem;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+    }
+    .product h3{
+      top: 1rem;
+      font-family: Comfortaa;
+      font-size: 2.4rem;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+    }
+    
+    .product:hover .product-info {
+      display: block;
+      left: 100%;
+    }
+
+
+
+
+
+
+    .sobrenos{
+        width: 100%;
+        height:70rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobrenos h1{
+        max-width: 70rem;
+        font-family: 'Lily Script One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6.4rem;
+        line-height: 8.8rem;
+        text-align: center;
+        color: #23673B;
+    }
+    .sobrenos__div{
+        background-color: #D1BEA2;
+        height: 48rem;
+        max-width: 120rem;
+        width: 120rem;
+        display: flex;
+        right: 0;
+        flex-direction: row;
+    }
+    .sobrenos__esquerda{
+        width: 56rem;
+        max-width: 56rem;
+        height: 100%;
+        background-image: src('IMG_9026.jpg');
+        position: relative;
+    
+    }
+    .sobrenos__foto{
+        width: 56rem;
+        height: 100%;
+        position: absolute;
+        object-fit: cover;
+        left: 0rem;
+    }
+    .sobrenos__transiçao{
+        position:absolute;
+        right: 0;
+        width: 7rem;
+        height: 100%;
+        background: linear-gradient(to right, transparent 25%, #D1BEA2 100%);
+    }
+    .sobrenos__texto p{
+        width: 64rem;
+        font-family: Poppins;
+      font-size: 2rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color:var(--secondary-700);
+      padding: 2rem;
+    }
+
+
+
+
+
+
+
+    #map {
+        width: 63.2rem;
+        height: 46.9rem;
+        margin: 0.3rem;
+    }
+    
+    .mapahomepage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;       
+        margin-top: 10rem;
+        width:100%;
+    }
+    
+    .mapahomepage__div {
+        background-color: var(--secondary-700);
+        display: flex;
+        justify-content: space-between;
+        width: 120rem;
+        height: 100%;
+        gap: 4rem;
+    }
+    
+    .mapahomepage__sobre {
+        display: flex;
+        flex-direction: column;
+        background-color: #d1bea2;
+        width: 59.3rem;
+        height: 47.5rem;
+    }
+    
+    .mapahomepage__sobre-texto {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+    }
+    
+    .mapahomepage h1 {
+        font-family: 'Comfortaa';
+        font-weight: 700;
+        font-size: 4.8rem;
+        padding: 1rem;
+        text-align: center;
+        color: #642b0a;
+    }
+    
+    .mapahomepage p {
+        text-align: justify;
+        padding: 2rem;
+        font-family: Poppins;
+        font-size: 2.4rem;
+        font-weight: normal;
+        color: #642b0a;
+    }
+
+
+
+
+
+
+    footer{
+        display: flex;
+        width: 100%;
+        position:relative;
+    }
+    footer img{
+        width: 100%;
+    }
+    
+    
+    .rodape__informaçoes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        bottom: 0%;
+        position: absolute;
+        top:5%;
+    
+    }
+    .rodape__info{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 18%;
+        height: 7rem;
+        position: relative;
+        
+    }
+    
+    .rodape__texto{
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: Poppins;
+        color: #fff;
+    }
+    .rodape__titulo{
+        bottom: 100%;
+        font-family: Poppins;
+        font-size:1.6rem;
+        font-weight: 500;
+        color: #fff;
+        position: absolute;
+        top: 0;
+    }
+    .rodape__barra{
+        position: absolute;
+        bottom: 0%;
+        height: 1rem;
+        width: 100%;
+        background-color: #085824;
+    }
+    .rodape__img{
+        position: absolute;
+        bottom: 25%;
+        max-width: 3rem;
+        padding: .5rem;
+        
+    }
+    .linha{
+        text-decoration: none;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 10%;
+        width: 100%;
+        height: 10%;
+        font-family: Poppins;
+        font-size: 1.3rem;
+        color: #fff;
+        background-color: #085824;
+    }
+    .rodape__creditos{
+        text-decoration: none;
+        color: #fff;
+    }
