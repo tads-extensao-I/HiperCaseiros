@@ -4,31 +4,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html,body{
+html, body {
     height: 100%;
 }
 
-:root{
-    font-size: 62.5%; /*Padrão de fonte '10'*/
+:root {
+    font-size: 62.5%;
 }
 
-header{
+/*HEADER*/
+header {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 113.1rem;
-    position: relative;   
+    position: relative;
     background: linear-gradient(270deg, var(--primary-700) 39.92%, var(--primary-a-700) 56.85%);
     background-color: var();
 }
 
-.header__links{
+.header__links {
     display: flex;
     justify-content: center;
     height: 15rem;
@@ -36,32 +37,31 @@ header{
     text-decoration: none;
 }
 
-
-.header__links-esquerda{
+.header__links-esquerda {
     padding-top: 10rem;
     display: flex;
     justify-content: center;
     gap: var(--spacing-26);
 }
 
-.header__links-direita{
+.header__links-direita {
     padding-top: 10rem;
     display: flex;
     justify-content: center;
-    gap:var(--spacing-26);
+    gap: var(--spacing-26);
 }
 
-.header__links-esquerda a{
-    color:  var(--primary-50);
-    text-decoration: none;
-}
-
-.header__links-direita a{
+.header__links-esquerda a {
     color: var(--primary-50);
     text-decoration: none;
 }
 
-.header__banner img{
+.header__links-direita a {
+    color: var(--primary-50);
+    text-decoration: none;
+}
+
+.header__banner img {
     max-width: 100%;
     max-height: 100%;
     width: 100%;
@@ -72,6 +72,7 @@ header{
     border-top-right-radius: 30%;
     object-fit: cover;
 }
+
 .header__transiçao {
     display: flex;
     width: 100%;
@@ -80,23 +81,25 @@ header{
     position: absolute;
     bottom: 0;
 }
-.header__logotipo{
-   position: relative;
-   z-index: 33;
-}
-    
-.texto{
-     background-color: #D1BEA2;
-     width: 100%;
-     height: 30rem;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
 
+.header__logotipo {
+    position: relative;
+    z-index: 33;
 }
-.texto h1{
+
+/*TEXTOS (TÍTULO E INGREDIENTES*/
+.texto {
+    background-color: #D1BEA2;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto h1 {
     color: var(--secondary-700);
-    font-family: LilyScriptOne;
+    font-family: 'Lily Script One';
     font-size: 6.4rem;
     font-weight: normal;
     font-stretch: normal;
@@ -104,9 +107,10 @@ header{
     line-height: normal;
     letter-spacing: normal;
 }
-.texto p{
+
+.texto p {
     color: var(--secondary-700);
-    max-width: 60%;
+    max-width: 70%;
     font-family: Comfortaa;
     font-size: 2.8rem;
     font-weight: normal;
@@ -114,16 +118,10 @@ header{
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-
+    text-align: justify;
 }
 
-
-
-
-
-
-
-
+/*TABELA NUTRICIONAL*/
 .flex {
     display: flex;
     flex-direction: column;
@@ -134,7 +132,7 @@ header{
 
 .tabela {
     padding: 6.4rem .1rem;
-    gap: 9.8rem;
+    gap: 4rem;
 }
 
 .tabela__titulo {
@@ -152,10 +150,6 @@ header{
     flex-direction: row;
     flex-wrap: nowrap;
 }
-
-
-
-.tabela__nutriente {}
 
 .tabela__grupo-colunas-titulo {
     background-color: #D1BEA2;
@@ -180,33 +174,29 @@ header{
     align-items: center;
 }
 
-.tabela__grupo-item{}
+.tabela__descricao-valor-diario {
+    font-family: 'Poppins';
+    font-size: 2rem;
+    text-align: justify;
+    width: 68%;
+}
 
 .tabela__valor-diario .tabela__grupo-colunas-titulo {
     width: 9.2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-footer{
+/*RODAPÉ*/
+footer {
     display: flex;
     width: 100%;
-    position:relative;
+    position: relative;
 }
-footer img{
+
+footer img {
     width: 100%;
 }
 
-
-.rodape__informaçoes{
+.rodape__informaçoes {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -217,21 +207,19 @@ footer img{
     padding-right: 5%;
     bottom: 0%;
     position: absolute;
-    top:5%;
-
+    top: 5%;
 }
-.rodape__info{
-    
+
+.rodape__info {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 18%;
     height: 7rem;
     position: relative;
-    
 }
 
-.rodape__texto{
+.rodape__texto {
     position: absolute;
     top: 40%;
     text-align: center;
@@ -239,30 +227,33 @@ footer img{
     font-family: Poppins;
     color: #fff;
 }
-.rodape__titulo{
+
+.rodape__titulo {
     bottom: 100%;
     font-family: Poppins;
-    font-size:1.6rem;
+    font-size: 1.6rem;
     font-weight: 500;
     color: #fff;
     position: absolute;
     top: 0;
 }
-.rodape__barra{
+
+.rodape__barra {
     position: absolute;
     bottom: 0%;
     height: 1rem;
     width: 100%;
     background-color: #085824;
 }
-.rodape__img{
+
+.rodape__img {
     position: absolute;
     bottom: 25%;
     max-width: 3rem;
     padding: .5rem;
-    
 }
-.linha{
+
+.linha {
     text-decoration: none;
     position: absolute;
     display: flex;
@@ -276,7 +267,8 @@ footer img{
     color: #fff;
     background-color: #085824;
 }
-.rodape__creditos{
+
+.rodape__creditos {
     text-decoration: none;
     color: #fff;
 }

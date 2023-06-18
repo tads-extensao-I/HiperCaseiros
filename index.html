@@ -14,14 +14,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
-    <title>HiperCaseiro</title>
+    <title>Hiper Caseiros</title>
 </head>
 
+<!--HEADER-->
 <body>
     <header>
            <div class="header__links">
                 <div class="header__links-esquerda">
-                    <a class="PoppinsSemiBold" href="./Produtos.html">Produtos</a>
+                    <a class="PoppinsSemiBold" href="#seçaoprodutos">Produtos</a>
                     <a class="PoppinsSemiBold" href="./Mapa.html">Vendedores</a>
                 </div>
 
@@ -29,31 +30,42 @@
                 
 
                 <div class="header__links-direita">
-                    <a class="PoppinsSemiBold" href="./SobreNos.html">Sobre Nós</a>
-                    <a class="PoppinsSemiBold" href="./Contatos.html">Contatos</a>
+                    <a class="PoppinsSemiBold" href="#sobrenos">Sobre Nós</a>
+                    <a class="PoppinsSemiBold" href="#rodape-contatos">Contatos</a>
                 </div>
            </div>
 
             <div class="header__banner">
-                
-                    <img src="img/IMG_9026.jpg">
+                    <img src="img/CaseiroHeader.jpg">
                     <div class="header__transiçao"></div>
 
             </div>
     </header>
 
-
-
-    
-    <section class="section-product">
+    <!--PRODUTOS-->
+    <section class="section-product" id="seçaoprodutos">
         <h1 class="product-h1">Produtos</h1>
             <div class="product-container">
               <div class="product-cima">
-    
+                
+                <div class="product">
+                  <a href="./ProdutoCVermelho.html">
+                    <div class="product-image">
+                       <img src="./img/SeçaoProdutos/Caseiro Vermelho.jpg" alt="Produto 2">
+                    </div>
+                    <div class="product-info">
+                      
+                      <h3>Pão Caseiro Médio</h3>
+                      
+                      <button>Saiba mais</button>
+                    </div>
+                  </a>
+                </div>
+
                 <div class="product">
                 <a href="./ProdutoPForma.html">
                   <div class="product-image">
-                    <img src="./img/Fotos_Produtos/Forma.jpg" alt="Produto 1">
+                    <img src="./img/SeçaoProdutos/Forma.jpg" alt="Produto 1">
                   </div>
                   
                   <div class="product-info">
@@ -64,25 +76,11 @@
                   
                 </a>
                 </div>
-    
-                <div class="product">
-                  <a href="./ProdutoCVermelho.html">
-                    <div class="product-image">
-                       <img src="./img/Fotos_Produtos/Caseiro Vermelho.jpg" alt="Produto 2">
-                    </div>
-                    <div class="product-info">
-                      
-                      <h3>Pão Caseiro Médio</h3>
-                      
-                      <button>Saiba mais</button>
-                    </div>
-                  </a>
-                </div>
-    
+
                   <div class="product">
                   <a href="./ProdutoCAzul.html">
                     <div class="product-image">
-                       <img src="./img/Fotos_Produtos/Leite.jpg" alt="Produto 2">
+                       <img src="./img/SeçaoProdutos/Leite.jpg" alt="Produto 2">
                     </div>
                     <div class="product-info">
                       <h3>Pão de Leite</h3>
@@ -95,7 +93,7 @@
                   <div class="product">
                     <a href="./ProdutoPIntegral.html">
                     <div class="product-image">
-                       <img src="./img/Fotos_Produtos/Integral.jpg" alt="Produto 2">
+                       <img src="./img/SeçaoProdutos/Integral.jpg" alt="Produto 2">
                     </div>
                     <div class="product-info">
                       <h3>Pão Integral</h3>
@@ -110,7 +108,7 @@
                   <div class="product">
                   <a href="./ProdutoPHDog.html">
                     <div class="product-image">
-                       <img src="./img/Fotos_Produtos/Hot Dog.jpg" alt="Produto 2">
+                       <img src="./img/SeçaoProdutos/Hot Dog.jpg" alt="Produto 2">
                     </div>
                     <div class="product-info">
                       <h3>Pão de Hot-Dog</h3>
@@ -123,7 +121,7 @@
                   <div class="product">
                   <a href="./ProdutoCVerde.html"> 
                     <div class="product-image">
-                       <img src="./img/Fotos_Produtos/Caseiro Verde.jpg" alt="Produto 2">
+                       <img src="./img/SeçaoProdutos/Caseiro Verde.jpg" alt="Produto 2">
                     </div>
                     <div class="product-info">
                       <h3>Pão Caseiro Grande</h3>
@@ -136,7 +134,7 @@
                   <div class="product">
                   <a href="./ProdutoPHamburguer.html">
                     <div class="product-image">
-                       <img src="./img/Fotos_Produtos/Hambúrguer.jpg" alt="Produto 2">
+                       <img src="./img/SeçaoProdutos/Hambúrguer.jpg" alt="Produto 2">
                     </div>
                     <div class="product-info">
                       <h3>Pão de Hamburguer</h3>
@@ -149,28 +147,27 @@
             </div>
     </section>
    
-
-
-
-
-    <section class="sobrenos">
-        <h1 class="tabela__titulo">Sobre a Híper</h1>
+    <!--SOBRE NÓS-->
+    <section class="sobrenos" id="sobrenos">
+        <h1 class="tabela__titulo">Sobre a Hiper</h1>
         <div class="sobrenos__div">
 
             <div class="sobrenos__esquerda">
-                <img class="sobrenos__foto" src="img/IMG_9037.jpg">
+                <img class="sobrenos__foto" src="img/Fotos/Forma.jpg">
                 <div class="sobrenos__transiçao"></div>
             </div>
-            <div class="sobrenos__texto"><p>A história da empresa Hiper Pães começa no ano de 2003 o sócio e proprietário Sr Noel Felipe,  juntamente com sua esposa e sócia proprietária a Sra. Maria Felipe, após uma viagem ao interior do Mato Grosso resolveram por em prática uma idéia que lhes foram dada na ocasião, fazer pães. 
-                Em Naviraí, iniciaram sua produção com 40 pães que foram distribuídos nos mercados da cidade vendendo toda a produção. 
-                Hoje a empresa Hiper Pães tem uma média de produção de 2000 a 2500 pães por dia conta com mais de 16 funcionários, possuem prédio próprio com maquinários modernos, a entrega final dos produtos são todas feitas  com veículos próprios da empresa e possuem uma distribuidora em Dourados, atendendo grande parte do estado do Mato Grosso do Sul e pensando em expandir ainda mais.
+            <div class="sobrenos__texto"><p>
+              A história da Hiper Caseiros começou no ano de 2003. Após uma viagem ao interior do Mato Grosso, os sócios proprietários Noel 
+              e Maria Felipe decidiram colocar em prática uma ideia que lhes fora dada na ocasião: fazer pães. Em Naviraí, iniciaram sua produção, 
+              com 40 pães que foram distribuídos nos mercados da cidade. Apesar do receio em relação à aceitação de seus produtos,
+              a empresa foi crescendo cada vez mais, vencendo os desafios que surgiram no caminho e ganhando o coração dos naviraienses.
+              Hoje, a empresa Hiper Caseiros atende mais de 14 cidades do estado do Mato Grosso do Sul.
             </p></div>
         </div>
         <h1 class="tabela__titulo">Não basta ser caseiro, tem que ser Hiper!</h1>
     </section>
     
-
-
+    <!--MAPA-->
     <section class="mapahomepage">
         <div class="mapahomepage__div">
                 <div id="map">
@@ -204,9 +201,7 @@
         </div>
     </section>
 
-
-
-
+    <!--RODAPÉ-->
     <footer>
         <img src="img/IMG_RODAPE.png">
              <div class="rodape__informaçoes">
@@ -222,7 +217,7 @@
                      <p class="rodape__texto"> </p>
                      <div class="rodape__barra"></div>
                  </div>
-                 <div class="rodape__info">
+                 <div class="rodape__info" id="rodape-contatos">
                      <p class="rodape__titulo"class="Text-PoppinsLg1Regular">Contatos</p>
                      <P class="rodape__texto">(67)91834-5876 hiperpaes@gmail.com</P>
                      <div class="rodape__barra"></div>
