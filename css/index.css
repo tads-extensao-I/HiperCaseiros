@@ -162,16 +162,6 @@ header {
     position: absolute;
     top: 0;
     left: 100%;
-    width: 30rem;
-    height: 30rem;
-    padding-top: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #642B0A;
-    z-index: 1;
-    transition: left 0.3s;
-    background: #D1BEA2;
 }
 
 .product:hover .product-info {
@@ -185,14 +175,23 @@ header {
     left: 100%;
     width: 30rem;
     height: 30rem;
-    padding-top: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
     background-color: rgba(0, 0, 0, 0.8);
     color: #642B0A;
     z-index: 1;
+    width: 30rem;
+    height: 30rem;
     transition: left 0.3s;
     background: #D1BEA2;
+}
+
+/*ID DO PRODUCT INFO*/
+#info-produto {
+    text-align: left;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 8rem;
+    padding-left: 6.3rem;
+    padding-right: 4rem;
 }
 
 .product-flex {
@@ -213,6 +212,7 @@ header {
     border-radius: 2rem;
     font-family: Comfortaa;
     font-size: 2rem;
+    margin-top: 1.5rem;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -283,6 +283,8 @@ header {
     display: flex;
     right: 0;
     flex-direction: row;
+    height: auto;
+    margin-bottom: 7.5rem;
 }
 
 .sobrenos__esquerda {
@@ -347,6 +349,7 @@ header {
     width: 120rem;
     height: 100%;
     gap: 4rem;
+    margin-bottom: 6rem;
 }
 
 .mapahomepage__sobre {
@@ -404,6 +407,7 @@ footer img {
     bottom: 0%;
     position: absolute;
     top: 5%;
+    margin-bottom: 2.6rem;
 }
 
 .rodape__info {
@@ -434,14 +438,6 @@ footer img {
     top: 0;
 }
 
-.rodape__barra {
-    position: absolute;
-    bottom: 0%;
-    height: 1rem;
-    width: 100%;
-    background-color: #085824;
-}
-
 .rodape__img {
     position: absolute;
     bottom: 25%;
@@ -455,6 +451,8 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
     bottom: 10%;
     width: 100%;
     height: 10%;
@@ -462,9 +460,11 @@ footer img {
     font-size: 1.3rem;
     color: #fff;
     background-color: #085824;
+    height: auto;
 }
 
 .rodape__creditos {
+    font-weight: 600;
     text-decoration: none;
     color: #fff;
 }
