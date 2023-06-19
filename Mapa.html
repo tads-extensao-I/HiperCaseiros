@@ -19,10 +19,39 @@
 </head>
 
 <body>
-    <section class="mapa">
-        <div>
-            Tabela
-        </div>
+    <!--HEADER-->
+    <header>
+           <div class="header__links">
+                <div class="header__links-esquerda">
+                    <a class="PoppinsSemiBold" href="./index.html#seçaoprodutos">Produtos</a>
+                    <a class="PoppinsSemiBold" href="./Mapa.html#title_vendedores">Vendedores</a>
+                </div>
+
+                    <a class="header__logotipo" href="./index.html"><IMG SRC="img/Logotipo.png"></a>
+                
+
+                <div class="header__links-direita">
+                    <a class="PoppinsSemiBold" href="./index.html#sobrenos">Sobre Nós</a>
+                    <a class="PoppinsSemiBold" href="./index.html#rodape-contatos">Contatos</a>
+                </div>
+           </div>
+
+            <div class="header__banner">
+                    <img src="img/CaseiroHeader.jpg">
+                    <div class="header__transiçao"></div>
+
+            </div>
+    </header>
+
+    <!--TEXTO ABAIXO DO BANNER-->
+    <section id="title_vendedores">
+        <h1>
+            Vendedores
+        </h1>
+    </section>
+
+    <!--MAPA-->
+    <section class="section__mapa-tabela">
 
         <div id="map">
             <script>
@@ -30,41 +59,477 @@
                 const map = new mapboxgl.Map({
                     container: 'map',
                     style: 'mapbox://styles/mapbox/streets-v12',
-                    center: [-54.267749056457546, -21.199328779457403],
-                    zoom: 6.1
+                    center: [-54.625819841871674,-22.56275376303921],
+                    zoom: 6.6
                 })
+
+                /*Naviraí*/
                 const marker1 = new mapboxgl.Marker({
-                    color: 'blue',
+                    color: 'red',
                     rotation: 2
                 })
                 .setLngLat([-54.194995, -23.055629])
                 .addTo(map);
 
+                /*Dourados*/
                 const marker2 = new mapboxgl.Marker({
-                    color: 'red',
+                    color: '#3bb2d0',
                     rotation: 2
                 })
                 .setLngLat([-54.812208, -22.220614])
                 .addTo(map);
 
+                /*Fátima do Sul*/
                 const marker3 = new mapboxgl.Marker({
-                    color: 'green',
+                    color: '#f5e427',
                     rotation: 2
                 })
                 .setLngLat([-54.516698, -22.37505])
                 .addTo(map);
 
+                /*Angélica*/
                 const marker4 = new mapboxgl.Marker({
-                    color: 'purple',
+                    color: '#79f527',
                     rotation: 2
                 })
-                .setLngLat([-54.616295, -20.464017])
+                .setLngLat([-53.77285, -22.15882])
+                .addTo(map);
+
+                /*Caarapó*/
+                const marker5 = new mapboxgl.Marker({
+                    color: '#5b27f5',
+                    rotation: 2
+                })
+                .setLngLat([-54.82409, -22.634927])
+                .addTo(map);
+
+                /*Culturama*/
+                const marker6 = new mapboxgl.Marker({
+                    color: '#27f5be',
+                    rotation: 2
+                })
+                .setLngLat([-54.3365, -22.3008])
+                .addTo(map);
+
+                /*Deodápolis*/
+                const marker7 = new mapboxgl.Marker({
+                    color: '#f59127',
+                    rotation: 2
+                })
+                .setLngLat([-54.168163, -22.276272])
+                .addTo(map);
+
+                /*Eldorado*/
+                const marker8 = new mapboxgl.Marker({
+                    color: '#f527da',
+                    rotation: 2
+                })
+                .setLngLat([-54.283202, -23.783881])
+                .addTo(map);
+
+                /*Glória de Dourados*/
+                const marker9 = new mapboxgl.Marker({
+                    color: '#ad5edb',
+                    rotation: 2
+                })
+                .setLngLat([-54.231339, -22.417373])
+                .addTo(map);
+
+                /*Iguatemi*/
+                const marker10 = new mapboxgl.Marker({
+                    color: '#1bcc2c',
+                    rotation: 2
+                })
+                .setLngLat([-54.563731, -23.673555])
+                .addTo(map);
+
+                /*Itaporã*/
+                const marker11 = new mapboxgl.Marker({
+                    color: '#f57a7a',
+                    rotation: 2
+                })
+                .setLngLat([-54.787424, -22.079914])
+                .addTo(map);
+
+                /*Itaquiraí*/
+                const marker12 = new mapboxgl.Marker({
+                    color: '#7c7af5',
+                    rotation: 2
+                })
+                .setLngLat([-54.183369, -23.480191])
+                .addTo(map);
+
+                /*Ivinhema*/
+                const marker13 = new mapboxgl.Marker({
+                    color: '#221c63',
+                    rotation: 2
+                })
+                .setLngLat([-53.827601, -22.302254])
+                .addTo(map);
+
+                /*Jateí*/
+                const marker14 = new mapboxgl.Marker({
+                    color: '#1c6343',
+                    rotation: 2
+                })
+                .setLngLat([-54.307006, -22.481562])
+                .addTo(map);
+
+                /*Juti*/
+                const marker15 = new mapboxgl.Marker({
+                    color: '#629e97',
+                    rotation: 2
+                })
+                .setLngLat([-54.604793, -22.861199])
+                .addTo(map);
+
+                /*Lagoa Bonita*/
+                const marker16 = new mapboxgl.Marker({
+                    color: '#f50a83',
+                    rotation: 2
+                })
+                .setLngLat([-54.2253, -22.266])
+                .addTo(map);
+
+                /*Laguna Carapã*/
+                const marker17 = new mapboxgl.Marker({
+                    color: '#9c2c58',
+                    rotation: 2
+                })
+                .setLngLat([-55.150555, -22.554923])
+                .addTo(map);
+
+                /*Maracaju*/
+                const marker18 = new mapboxgl.Marker({
+                    color: '#fa6143',
+                    rotation: 2
+                })
+                .setLngLat([-55.164605, -21.6163])
                 .addTo(map);
 
                 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
             </script>
         </div>
+
+        <section class="tabela-vendedores">
+            <!--NAVIRAÍ-->
+            <div class="cidade">
+                  <div class="nome-cidade">
+                    <img src="img/Icons/Naviraí.png">
+                     <h2>Naviraí</h2>
+                  </div>
+
+                  <div class="vendedores">
+                    <ul>Fogo Atacadista</ul>
+                    <ul>Mercado Cro e Cra</ul>
+                    <ul>Mercado Lucato</ul>
+                    <ul>Mercado Ponto da Economia</ul>
+                    <ul>Mercado Robinho</ul>
+                    <ul>Mercado Teixeira</ul>
+                    <ul>Supermercado C.Vale</ul>
+                    <ul>Supermercado Chama (todas as unidades)</ul>
+                    <ul>Supermercado Naviraí (todas as unidades)</ul>
+                    <ul>Supermercado Santos</ul>
+                  </div>
+            </div>
+
+            <!--DOURADOS-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Dourados.png">
+                   <h2>Dourados</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Supermercado Chama</ul>
+                    <ul>Supermercado Dois Irmãos</ul>
+                    <ul>Supermercado Dourados</ul>
+                    <ul>Supermercado Favorito</ul>
+                    <ul>Supermercado Paraná</ul>
+                    <ul>Supermercado Popular</ul>
+                    <ul>Supermercado Sempre Bom</ul>
+                    <ul>Supermercado Super Bom</ul>
+                </div>
+            </div>
+
+            <!--FÁTIMA DO SUL-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/FátimaDoSul.png">
+                   <h2>Fátima do Sul</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Casa de Carne e Conveniência Bom Gosto</ul>
+                    <ul>Casa de Carne e Conveniência Favo de Mel</ul>
+                    <ul>Conveniência Neto</ul>
+                    <ul>Conveniência Praiano</ul>
+                    <ul>Mercado Bom Preço</ul>
+                    <ul>Mercado Compra Certa</ul>
+                    <ul>Mercado de Casa</ul>
+                    <ul>Mercado e Conveniência Avenida</ul>
+                    <ul>Supermercado Martins</ul>                    
+                </div>
+            </div>
+
+            <!--MARACAJU-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Maracaju.png">
+                   <h2>Maracaju</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Casa de Carne Big Beef</ul>
+                    <ul>Fogo Atacadista</ul>
+                    <ul>Mercado Árvores do Serrado</ul>
+                    <ul>Mercado Compre Bem</ul>
+                    <ul>Mercado Oásis</ul>
+                    <ul>Mercado Primavera</ul>                    
+                </div>
+            </div>
+
+            <!--CAARAPÓ-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Caarapó.png">
+                   <h2>Caarapó</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Comercial Angélica</ul>
+                    <ul>Comercial Di Casa</ul>
+                    <ul>Mercado Antunes</ul>
+                    <ul>Mercado Bom Preço</ul>
+                    <ul>Mercado Santana</ul>
+                    <ul>Mercado São Paulo</ul>
+                    <ul>Supermercado Chama</ul>                    
+                </div>
+            </div>
+            
+            <!--ITAPORÃ-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Itaporã.png">
+                   <h2>Itaporã</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Frutaria Pague Pouco</ul>
+                    <ul>Mercado Alfa</ul>
+                    <ul>Mercado Ramalho</ul>
+                    <ul>Minimercado e Conveniência do Portuga</ul>
+                    <ul>Minimercado Freres</ul>                    
+                </div>
+            </div>
+            
+            <!--JUTI-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Juti.png">
+                   <h2>Juti</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Bar do Tererê</ul>
+                    <ul>Casa de Carne Nobre</ul>
+                    <ul>Comercial Zacarias</ul>
+                    <ul>Conveniência Belo</ul>
+                    <ul>Mercado Binga</ul>
+                    <ul>Mini Mercado Vitória</ul>
+                    <ul>Supermercado Santos</ul>                    
+                </div>
+            </div>
+
+              <!--ANGÉLICA-->
+              <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Angélica.png">
+                   <h2>Angélica</h2>
+                </div>
+
+                <div class="vendedores">
+                  <ul>JP Variedades e Conveniência</ul>
+                  <ul>Mercado Bem Bom</ul>
+                  <ul>Mercado Bom Preço</ul>
+                  <ul>Mercado Novo Mundo</ul>
+                  <ul>Mercado Pantanal</ul>
+                </div>
+            </div>
+
+            <!--ITAQUIRAÍ-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Itaquiraí.png">
+                   <h2>Itaquiraí</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Supermercado Léo</ul>
+                    <ul>Supermercado Santos</ul>
+                    <ul>Supermercado Trem Bom</ul>                    
+                </div>
+            </div>
+
+            <!--IVINHEMA-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Ivinhema.png">
+                   <h2>Ivinhema</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Casa de Carne Independência</ul>
+                    <ul>Casa Marques</ul>
+                    <ul>Mercado Maxx</ul>
+                    <ul>Supermercado Vitória</ul>                    
+                </div>
+            </div>
+            
+            <!--ELDORADO-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Eldorado.png">
+                   <h2>Eldorado</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Mercado Pantanal</ul>
+                    <ul>Mercado Santo Antônio</ul>
+                    <ul>Supermercado Rafagnim</ul>                    
+                </div>
+            </div>
+            
+            <!--IGUATEMI-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Iguatemi.png">
+                   <h2>Iguatemi</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Bar e Mercearia Carioca</ul>
+                    <ul>Mercearia e Açougue Catarinense</ul>
+                    <ul>Supermercado Chama</ul>
+                    <ul>Supermercado Paraguai</ul>                    
+                </div>
+            </div>
+
+            <!--LAGOA BONITA-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/LagoaBonita.png">
+                   <h2>Lagoa Bonita</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Mercado Santo André</ul>
+                    <ul>Mercado Shoyo</ul>
+                    <ul>Mercado Tonho Belo</ul>
+                    <ul>Mercearia RJ</ul>                    
+                </div>
+            </div>
+
+            <!--DEODÁPOLIS-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Deodápolis.png">
+                   <h2>Deodápolis</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Mercado Nossa Senhora Aparecida</ul>
+                    <ul>Mercearia Europa</ul>
+                    <ul>Supermercado Macaúba</ul>
+                </div>
+            </div>
+
+            <!--CULTURAMA-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Culturama.png">
+                   <h2>Culturama</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Bar Nenê</ul>
+                    <ul>Mercado Julifran</ul>
+                </div>
+            </div>
+
+            <!--GLÓRIA DE DOURADOS-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/GlóriaDeDourados.png">
+                   <h2>Glória de Dourados</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Supermercado Tião</ul>
+                </div>
+            </div>
+
+            <!--JATEÍ-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/Jateí.png">
+                   <h2>Jateí</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Supermercado Paraná</ul>
+                </div>
+            </div>
+
+            <!--LAGUNA CARAPÃ-->
+            <div class="cidade">
+                <div class="nome-cidade">
+                  <img src="img/Icons/LagunaCarapã.png">
+                   <h2>Laguna Carapã</h2>
+                </div>
+
+                <div class="vendedores">
+                    <ul>Supermercado Chama</ul>
+                </div>
+            </div>
+        </section>
     </section>
+    <p class="disclaimer">
+        <b>*</b>Por conta da grande quantidade de estabelecimentos, nem todos estão listados.
+    </p>
+    
+    <!--RODAPÉ-->
+    <footer>
+        <img src="img/IMG_RODAPE.png">
+             <div class="rodape__informaçoes">
+                 <div class="rodape__info"class="Text-PoppinsLg1Regular">
+                     <p class="rodape__titulo">Endereço</p>
+                     <p class="rodape__texto">Avenida Narciso Ferreira, nº498, Naviraí-MS</p>
+                     <div class="rodape__barra"></div>
+                 </div>
+ 
+                 <div class="rodape__info">
+                     <p class="rodape__titulo"class="Text-PoppinsLg1Regular">Funcionamento</p>
+                     <p class="rodape__texto">08:30  às 18:00 seg à sab</p>
+                     <p class="rodape__texto"> </p>
+                     <div class="rodape__barra"></div>
+                 </div>
+                 <div class="rodape__info" id="rodape-contatos">
+                     <p class="rodape__titulo"class="Text-PoppinsLg1Regular">Contatos</p>
+                     <P class="rodape__texto">(67)91834-5876 hiperpaes@gmail.com</P>
+                     <div class="rodape__barra"></div>
+                 </div>
+                 
+                 <div class="rodape__info">
+                     <p class="rodape__titulo"class="Text-PoppinsLg1Regular">Redes Sociais</p>
+                     <img class="rodape__img"src="img/Zap.png">
+                     <div class="rodape__barra"></div>
+                 </div>
+             </div>
+             <div class="linha">
+                 Copyright © 2023 Produtos Hiper Caseiro | Desenvolvido em colaboração IFMS/UFMS - 
+                 <a class="rodape__creditos" href="./Creditos.html"> Creditos</a>
+             </div>
 </body>
 
 </html>

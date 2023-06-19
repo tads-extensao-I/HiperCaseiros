@@ -126,7 +126,6 @@ header {
 .product-baixo {
     display: flex;
     flex-direction: row;
-
     margin: 0 auto;
     gap: 0.1rem;
 }
