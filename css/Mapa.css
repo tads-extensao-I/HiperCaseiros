@@ -16,6 +16,7 @@
 .trigos{
     background-image: url("../img/Trigos.png");
 }
+
 /*HEADER*/
 header {
     display: flex;
@@ -156,8 +157,8 @@ header {
 .disclaimer {
     display: flex;
     font-family: 'Poppins';
-    font-size: 1.6rem;
-    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
     margin-left: 50rem;
 }
 
