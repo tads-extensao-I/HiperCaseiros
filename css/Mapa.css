@@ -13,7 +13,9 @@
 :root {
     font-size: 62.5%;
 }
-
+.trigos{
+    background-image: url("../img/Trigos.png");
+}
 /*HEADER*/
 header {
     display: flex;
