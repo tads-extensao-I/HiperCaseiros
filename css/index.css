@@ -185,6 +185,7 @@ header {
     height: 30rem;
     transition: left 0.3s;
     background: #D1BEA2;
+    opacity: 0.9;
 }
 
 /*ID DO PRODUCT INFO*/
@@ -245,7 +246,7 @@ header {
     top: 1rem;
     font-family: Comfortaa;
     font-size: 2.4rem;
-    font-weight: bold;
+    font-weight: 800;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
