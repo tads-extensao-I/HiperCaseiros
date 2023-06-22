@@ -191,6 +191,33 @@ header {
     width: 9.2rem;
 }
 
+/*BOTÃO DE VOLTAR AO TOPO*/
+.botao-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #085824;
+    box-shadow: .1rem .1rem .4rem black;
+    border-radius: 10rem;
+    text-decoration: none;
+}
+
+.botao-topo::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+
+.botao-topo:hover::after {
+    margin-top:-8px;
+}
 /*RODAPÉ*/
 footer {
     display: flex;
@@ -245,7 +272,7 @@ footer img {
     top: 0;
 }
 
-.rodape__img {
+.rodape__whatsapp {
     position: absolute;
     bottom: 25%;
     max-width: 3rem;
@@ -256,18 +283,40 @@ footer img {
     text-decoration: none;
     position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     bottom: 10%;
     width: 100%;
-    height: 10%;
     font-family: Poppins;
     font-size: 1.3rem;
     color: #fff;
     background-color: #085824;
     height: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.linha__colaboracao {
+    display: flex;
+    align-items: last baseline;
+    gap: 3rem;
+}
+
+.linha__colaboracao #ifms {
+    width: 15rem;
+    height: 4rem;
+
+}
+
+.linha__colaboracao #ufms {
+    width: 15rem;
+    height: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-sizing: content-box;
+    
 }
 
 .rodape__creditos {
