@@ -9,16 +9,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    padding: 0;
+}
 
 :root {
     font-size: 62.5%;
 }
 .trigos{
     background-image: url("../img/Trigos.png");
+    width: 100%;
 }
 
 /*HEADER*/
 #header-mapa{
+    top: 0;
     display: flex;
     flex-direction: column;
     width: 100%;
