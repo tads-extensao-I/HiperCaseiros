@@ -15,10 +15,11 @@
 }
 .trigos{
     background-image: url("../img/Trigos.png");
+    width: 100%;
 }
 
 /*HEADER*/
-#header-mapa{
+header {
     display: flex;
     flex-direction: column;
     width: 100%;
