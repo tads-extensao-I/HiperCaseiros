@@ -238,16 +238,16 @@
     
         
         async function Produto(){
-            let response=await fetch('http://200.53.30.36:8080/websiteadmin/api/produto/0')
+            let response=await fetch('http://200.53.30.36:8080/websiteadmin/api/produto/3/1')
             produto=await response.json()
         }Produto()
         
         
         async function Empresa(){
-            let response=await fetch('http://200.53.30.36:8080/websiteadmin/api/empresa/0')
+            let response=await fetch('http://200.53.30.36:8080/websiteadmin/api/empresa/3')
             empresa=await response.json()
+            console.log(empresa)
         }Empresa()
-
 
         
         function Foto(){
