@@ -38,7 +38,7 @@
 
        <!--FOTO DO PRODUTO NO BANNER-->
         <div class="header__banner">
-                <img src="img/Fotos/Leite.jpg">
+                <img id="foto">
                 <div class="header__transiçao"></div>
         </div>
 
@@ -49,14 +49,8 @@
 
     <!--TEXTO ABAIXO DO BANNER-->
     <section class="texto">
-        <h1>
-            Pão de Leite
-        </h1>
-        <p class="ComfortaaRegular">
-            <b>Ingredientes:</b> farinha de trigo enriquecida com ferro e ácido fólico, açúcar, fermento biológico,
-            gordura vegetal, sal, glúten, farinha de soja, emulcificantes, mono e diglicerídeos de ácido graxos e
-            estearoil-e-lactil, lacto de sódio, espessante goma guar e conservador proprionato de cálcio. <b>Contém glúten.</b>
-        </p>
+        <h1 id="nome"></h1>
+        <p class="ComfortaaRegular" id="descricao"></p>
     </section>
 
     <!--TABELA NUTRICIONAL-->
@@ -202,12 +196,12 @@
                  </div>
                  <div class="rodape__info" id="rodape-contatos">
                      <p class="rodape__titulo"class="Text-PoppinsLg1Regular">Contatos</p>
-                     <p class="rodape__texto">(67) 3461-1702 <br>hipercaseiro@hotmail.com</p>
+                     <p class="rodape__texto" id="telefone"></p>
                  </div>
                  
                  <div class="rodape__info">
                      <p class="rodape__titulo"class="Text-PoppinsLg1Regular">Redes Sociais</p>
-                     <a class="rodape__whatsapp" href="https://wa.me/556734611702"><img class="rodape__img" src="img/Zap.png"></a>
+                     <a class="rodape__whatsapp" id="whatsapp"><img class="rodape__img" src="img/Zap.png"></a>
                  </div>
              </div>
              <div class="linha">
@@ -227,12 +221,61 @@
                </div>
   </footer>
 </main>
-
     <!--BOTÃO DE VOLTAR AO TOPO-->
     <section class="botao__topo">
         <a href="#header__logotipo" class="botao-topo"></a>
     </section>
-  
+
+    <script>
+    
+        const foto=document.querySelector('#foto')
+        const nome=document.querySelector('#nome')
+        const descricao=document.querySelector('#descricao')
+        const telefone=document.querySelector('#telefone')
+        const whatsapp=document.querySelector('#whatsapp')
+        const produto={}
+        const empresa={}
+    
+        
+        async function Produto(){
+            let response=await fetch('http://200.53.30.36:8080/websiteadmin/api/produto/0')
+            produto=await response.json()
+        }Produto()
+        
+        
+        async function Empresa(){
+            let response=await fetch('http://200.53.30.36:8080/websiteadmin/api/empresa/0')
+            empresa=await response.json()
+        }Empresa()
+
+
+        
+        function Foto(){
+            foto.src=produto.urlImagem  
+        }Foto()
+        
+        function Nome(){
+            nome.value=produto.nome
+        }Nome()
+       
+        function Descricao(){
+            descricao.value=produto.descricao
+        }Descricao()
+
+        
+        function Telefone(){
+            telefone.value=`${empresa.telefone}<br>${empresa.email}`
+        }Telefone()
+        
+        function Whatsapp(){
+            whatsapp.href=`https://wa.me/${empresa.telefone}`
+        }Whatsapp()
+        
+
+
+
+
+      </script>
 </body>
 
 </html>
