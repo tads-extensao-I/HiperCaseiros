@@ -10,16 +10,17 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 :root {
     font-size: 62.5%;
-    scroll-behavior: smooth;
 }
 
-.trigos{
+.trigos {
     background-image: url("../img/Trigos.png");
 }
 
@@ -82,7 +83,7 @@ header {
     display: flex;
     width: 100%;
     height: 30%;
-    background: linear-gradient(to bottom, transparent 25%, #D1BEA2 100%);
+    background: linear-gradient(to bottom, transparent 25%, white 100%);
     position: absolute;
     bottom: 0;
 }
@@ -92,105 +93,10 @@ header {
     z-index: 33;
 }
 
-/*TEXTOS (TÍTULO E INGREDIENTES*/
-.texto {
-    background-color: #D1BEA2;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 3rem;
-}
+/*FORMULÁRIO de PRODUTO*/
 
-.texto h1 {
-    color: var(--secondary-700);
-    font-family: 'Lily Script One';
-    font-size: 6.4rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-}
-
-.texto p {
-    color: var(--secondary-700);
-    max-width: 70%;
-    font-family: Comfortaa;
-    font-size: 2.8rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: justify;
-    flex-wrap: nowrap;
-}
-
-/*TABELA NUTRICIONAL*/
-.flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.tabela {
-    padding: 6.4rem .1rem;
-    gap: 4rem;
-}
-
-.tabela__titulo {
-    max-width: 70rem;
-    font-family: 'Lily Script One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 6.4rem;
-    line-height: 8.8rem;
-    text-align: center;
-    color: #23673B;
-}
-
-.tabela__container {
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.tabela__grupo-colunas-titulo {
-    background-color: #D1BEA2;
-    padding: 3.2rem 0;
-    justify-content: center;
-    align-items: center;
-    width: 41.6rem;
-    font-family: 'Comfortaa';
-    font-weight: bold;
-    font-size: 3.0rem;
-    color: #FFFFFF;
-    border: 1px solid #000000;
-    opacity: 0.8;
-}
-
-.tabela__grupo-colunas {
-    width: 100%;
-    font-family: 'Comfortaa';
-    font-weight: bold;
-    font-size: 3.0rem;
-    border: 1px solid #000000;
-    padding: 3.2rem 0 3.2rem 0;
-    align-items: center;
-}
-
-.tabela__descricao-valor-diario {
-    font-family: 'Poppins';
-    font-size: 2rem;
-    text-align: justify;
-    width: 68%;
-}
-
-.tabela__valor-diario .tabela__grupo-colunas-titulo {
-    width: 9.2rem;
+#title {
+    font-size: medium;
 }
 
 /*BOTÃO DE VOLTAR AO TOPO*/
@@ -218,8 +124,9 @@ header {
 }
 
 .botao-topo:hover::after {
-    margin-top:-8px;
+    margin-top: -8px;
 }
+
 /*RODAPÉ*/
 footer {
     display: flex;
@@ -318,7 +225,7 @@ footer img {
     padding-top: 1rem;
     padding-bottom: 1rem;
     box-sizing: content-box;
-    
+
 }
 
 .rodape__creditos {

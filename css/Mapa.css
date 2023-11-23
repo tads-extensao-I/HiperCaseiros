@@ -12,8 +12,10 @@
 
 :root {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
-.trigos{
+
+.trigos {
     background-image: url("./img/Trigos.png");
     width: 100%;
 }

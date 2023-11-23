@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/CadastroProduto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/Logotipo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Cadastro</title>
+</head>
+
+<!--HEADER-->
+
+<body>
+
+    <header>
+        <div class="header__links">
+            <div class="header__links-esquerda">
+                <a class="PoppinsSemiBold" href="./index.html#seçaoprodutos">Produtos</a>
+                <a class="PoppinsSemiBold" href="./Mapa.html#title_vendedores">Vendedores</a>
+            </div>
+
+            <a class="header__logotipo" id="header__logotipo" href="./index.html"><IMG SRC="img/Logotipo.png"></a>
+
+
+            <div class="header__links-direita">
+                <a class="PoppinsSemiBold" href="./index.html#sobrenos">Sobre Nós</a>
+                <a class="PoppinsSemiBold" href="./index.html#rodape-contatos">Contatos</a>
+            </div>
+        </div>
+
+        <div class="header__banner">
+            <img src="img/CaseiroHeader.jpg">
+            <div class="header__transiçao"></div>
+
+        </div>
+    </header>
+    <main class="trigos">
+
+        <!--FORMULÁRIO de PRODUTO-->
+        <section class="sectionFormulario">
+            <form class="d-flex flex-column align-items-center gap-3 p-md-5">
+                <h1 id="title">Login</h1>
+
+                <div class="form-group w-25">
+                    <label for="emailInput" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="campoInput">
+                </div>
+
+                <div class="form-group w-25">
+                    <label for="senhaInput" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="campoInput">
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcaoStatus" id="opcaoStatus" value="inativo">
+                    <label class="form-check-label" for="opcaoInativo">Lembrar meus dados</label>
+                </div>
+                </div>
+
+                <button type="submit" class="btn w-25 btn-primary" id="botaoEnviar">Enviar</button>
+            </form>
+        </section>
+
+        <section class="list-group d-flex align-items-center p-md-5">
+            <h4 class="h2-lista">Formulários</h4>
+            <div class="list-group d-flex w-25">
+                <a href="./CadastroProduto.html" class="list-group-item list-group-item-action">Cadastro de Produtos</a>
+                <a href="./CadastroEmpresa.html" class="list-group-item list-group-item-action">Cadastro de Empresa</a>
+                <a href="./CadastroRevenda.html" class="list-group-item list-group-item-action">Cadastro de Revendedor</a>
+              </div>
+        </section>
+
+        <!--RODAPÉ-->
+        <footer>
+            <img src="img/IMG_RODAPE.png">
+            <div class="rodape__informaçoes">
+                <div class="rodape__info" class="Text-PoppinsLg1Regular">
+                    <p class="rodape__titulo">Endereço</p>
+                    <p class="rodape__texto">Rua Rafael Guedes Chociai, nº 427 <br>Centro, Naviraí/MS</p>
+                </div>
+
+                <div class="rodape__info">
+                    <p class="rodape__titulo" class="Text-PoppinsLg1Regular">Funcionamento</p>
+                    <p class="rodape__texto">08h30min às 18h00min <br>Segunda a sábado</p>
+                    <p class="rodape__texto"> </p>
+                </div>
+                <div class="rodape__info" id="rodape-contatos">
+                    <p class="rodape__titulo" class="Text-PoppinsLg1Regular">Contatos</p>
+                    <p class="rodape__texto">(67) 3461-1702 <br>hipercaseiro@hotmail.com</p>
+                </div>
+
+                <div class="rodape__info">
+                    <p class="rodape__titulo" class="Text-PoppinsLg1Regular">Redes Sociais</p>
+                    <a class="rodape__whatsapp" href="https://wa.me/556734611702"><img class="rodape__img"
+                            src="img/Zap.png"></a>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="linha__colaboracao">
+                    <img id="ifms" src="img/IFMS.png">
+                </div>
+
+                <div class="rodape__linha__texto">
+                    Copyright © 2023 Produtos Hiper Caseiro
+                    <br><a class="rodape__creditos" href="./Creditos.html">Créditos</a>
+                </div>
+
+                <div class="linha__colaboracao">
+                    <img id="ufms" src="img/UFMS.png">
+                </div>
+
+            </div>
+    </main>
+
+    <!--BOTÃO DE VOLTAR AO TOPO-->
+    <section class="botao__topo">
+        <a href="#header__logotipo" class="botao-topo"></a>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
